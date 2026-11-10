@@ -1,0 +1,10 @@
+ATUALIZACAO BAMBIN — LOGO E CATALOGO
+
+Alteracoes desta versao:
+- Cabeçalho e rodape passam a usar o arquivo completo logo-bambin.png, preservando o ursinho, o lettering Bambin e o slogan em alta resolucao.
+- Foram adicionados 3 brinquedos para 0 a 12 meses e 3 brinquedos para 5 a 6 anos.
+- Nenhuma outra faixa etaria ou secao do site foi alterada intencionalmente.
+
+Para atualizar o GitHub, substitua os arquivos index.html, app.js e styles.css e envie os novos arquivos da pasta assets mantendo os caminhos. Depois faça Commit changes; a Vercel publica automaticamente.
+
+Observacao: as fotos sao ilustrativas. Antes de comercializar, confirme com os fornecedores que cada imagem representa o produto real e valide faixa etaria, certificacoes e seguranca, especialmente para brinquedos destinados a bebes.
