@@ -20,3 +20,36 @@
 @media(max-width:1120px){.brand-full-logo{width:245px;max-height:78px}}
 @media(max-width:860px){.brand-full-logo{width:225px;max-height:70px}}
 @media(max-width:580px){.brand-full-logo{width:185px;max-height:58px}}
+
+/* Assinatura visual reforçada da Bambin: mascote maior + lettering legível */
+.site-header{min-height:116px;height:116px;gap:clamp(12px,1.4vw,22px)}
+.brand-lockup{display:flex;align-items:center;gap:10px;flex:0 0 auto;min-width:310px}
+.brand-mascot{width:94px;height:94px;object-fit:contain;flex:0 0 auto;border-radius:50%;background:#f7f3e9}
+.brand-lockup .brand-copy{display:flex;flex-direction:column;justify-content:center;min-width:0}
+.brand-lockup .brand-copy strong{font:700 46px/.98 var(--serif);letter-spacing:-1.8px;color:var(--brown)}
+.brand-lockup .brand-copy small{display:inline-block;margin-top:7px;font:700 9px/1.25 var(--sans);letter-spacing:.055em;color:#805239;white-space:normal;max-width:225px}
+.brand-light.brand-lockup .brand-copy strong{color:#fff}
+.brand-light.brand-lockup .brand-copy small{color:#f0d9c4}
+.brand-light .brand-mascot{background:#f7f3e9}
+@media(max-width:1250px){
+ .brand-lockup{min-width:260px;gap:7px}
+ .brand-mascot{width:78px;height:78px}
+ .brand-lockup .brand-copy strong{font-size:39px}
+ .brand-lockup .brand-copy small{font-size:8px;max-width:190px}
+ .main-nav{gap:clamp(8px,1vw,14px);font-size:11px}
+ .site-header{padding:0 22px}
+}
+@media(max-width:860px){
+ .site-header{height:88px;min-height:88px}
+ .brand-lockup{min-width:0}
+ .brand-mascot{width:66px;height:66px}
+ .brand-lockup .brand-copy strong{font-size:34px}
+ .brand-lockup .brand-copy small{font-size:7px;max-width:180px}
+}
+@media(max-width:580px){
+ .brand-lockup{gap:5px}
+ .brand-mascot{width:52px;height:52px}
+ .brand-lockup .brand-copy strong{font-size:28px}
+ .brand-lockup .brand-copy small{font-size:6px;max-width:145px;letter-spacing:.015em}
+ .site-header{height:76px;min-height:76px}
+}
