@@ -1,0 +1,12 @@
+BAMBIN — PACOTE DE CORREÇÕES
+
+O que foi atualizado:
+- Catálogo: os 12 produtos agora apontam para imagens de brinquedos, sem fotos de crianças nos cards de venda.
+- Faixas etárias na página inicial: os cards mostram brinquedos em vez de fotos de crianças.
+- Clube de assinatura: as imagens dos planos foram trocadas por imagens de brinquedos.
+- Guias e conteúdos: cada artigo usa uma imagem temática de brinquedos; a página do artigo reutiliza a mesma imagem.
+- Identidade visual: o cabeçalho e o rodapé usam a marca do ursinho separada do nome e do slogan em texto, com tamanho e contraste reforçados para melhorar a leitura em desktop e celular.
+
+Arquivos principais: index.html, styles.css, app.js e pasta assets.
+
+Observação: as fotos são imagens ilustrativas de apresentação. Antes de comercializar produtos reais, substitua por fotografias oficiais dos itens efetivamente vendidos e confirme materiais, certificações, faixa etária e especificações com os fornecedores.
