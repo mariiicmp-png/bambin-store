@@ -59,3 +59,57 @@
 .age-card img{object-fit:cover;object-position:center center}
 .feature-image{background-size:cover;background-position:center center}
 .donation-banner{background-image:linear-gradient(90deg,rgba(96,53,31,.82),rgba(96,53,31,.10)),url('assets/banner-social-clean.webp')}
+
+/* CORRECAO EMERGENCIAL DO CABECALHO BAMBIN */
+.site-header {
+  height: 104px !important;
+  min-height: 104px !important;
+  max-height: 104px !important;
+  padding: 0 28px !important;
+  overflow: hidden !important;
+}
+
+.site-header .brand,
+.site-header .brand-lockup {
+  width: auto !important;
+  max-width: 340px !important;
+  min-width: 0 !important;
+  flex: 0 1 340px !important;
+  overflow: hidden !important;
+}
+
+.site-header .brand img,
+.site-header .brand-logo,
+.site-header .brand-full-logo,
+.site-header .brand-mascot {
+  width: auto !important;
+  max-width: 300px !important;
+  height: 82px !important;
+  max-height: 82px !important;
+  object-fit: contain !important;
+}
+
+.site-header .brand-mascot {
+  width: 76px !important;
+  height: 76px !important;
+}
+
+.site-header .brand-copy strong {
+  font-size: 38px !important;
+}
+
+.site-header .main-nav {
+  flex: 1 1 auto !important;
+  gap: 14px !important;
+  font-size: 11px !important;
+}
+
+@media (max-width: 860px) {
+  .site-header {
+    height: 88px !important;
+    min-height: 88px !important;
+  }
+  .site-header .main-nav {
+    display: none !important;
+  }
+}
