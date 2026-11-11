@@ -113,3 +113,46 @@
     display: none !important;
   }
 }
+
+/* BAMBIN - CORRECAO DO BANNER PRINCIPAL */
+
+/* Desktop */
+.hero:before {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(247,243,233,.98) 0%,
+      rgba(247,243,233,.94) 29%,
+      rgba(247,243,233,.45) 48%,
+      rgba(247,243,233,0) 68%
+    ),
+    url('assets/hero-bambin.webp') center center / cover no-repeat !important;
+}
+
+/* Tablet */
+@media (max-width: 860px) {
+  .hero:before {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(247,243,233,.98) 0%,
+        rgba(247,243,233,.88) 45%,
+        rgba(247,243,233,.22) 100%
+      ),
+      url('assets/hero-bambin.webp') 60% center / cover no-repeat !important;
+  }
+}
+
+/* Celular */
+@media (max-width: 580px) {
+  .hero:before {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(247,243,233,.97),
+        rgba(247,243,233,.78) 60%,
+        rgba(247,243,233,.32)
+      ),
+      url('assets/hero-bambin.webp') 62% center / cover no-repeat !important;
+  }
+}
